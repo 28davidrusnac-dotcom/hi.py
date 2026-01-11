@@ -7,6 +7,9 @@ Choose an operation:
 - Substraction
 * Multiplication
 / Division
+** Exponent
+// Integer division
+%Remainder
 """)
 
 op= input("operation:")
@@ -23,6 +26,14 @@ elif op== "/":
         print("Division by zero is not allowed.")
         exit()
     result= a/b
+elif op== "**":
+    result=a**b
+
+elif op== "//":
+result= a//b
+
+elif op== "%":
+result= a%b
 
 else:
     print("invalid operation.")
