@@ -30,10 +30,10 @@ elif op== "**":
     result=a**b
 
 elif op== "//":
-result= a//b
+    result= a//b
 
 elif op== "%":
-result= a%b
+    result= a%b
 
 else:
     print("invalid operation.")
